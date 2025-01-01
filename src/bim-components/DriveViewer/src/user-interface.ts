@@ -8,7 +8,7 @@ export function DriveViewerUI(components: OBC.Components){
 
   return BUI.html`
     <bim-toolbar-section label="Google Drive" icon="simple-icons:googledrive">
-      <bim-button label="Authorize" icon="hugeicons:authorized" @click=${driver.authorize()}>
+      <bim-button label="Authorize" icon="hugeicons:authorized" @click=${()=>driver.authorize()}>
       </bim-button>
     </bim-toolbar-section>
   `

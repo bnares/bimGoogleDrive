@@ -66,6 +66,7 @@ export class DriveViewer extends OBC.Component{
     });
 
     const callback = await response.text();
+    window.alert(callback);
     // The callback URI will be returned with double quotes,
 	   // we need to get rid of them to set the location
      const fixedCallback = callback.replace(/"/g, "");
