@@ -1,0 +1,20 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Rzeszów",
+			"country": {
+				"code": "PL",
+				"name": "Poland"
+			},
+			"subdivision": {
+				"code": "18",
+				"name": "Subcarpathia"
+			},
+			"timezone": "Europe/Warsaw",
+			"latitude": 50.0417,
+			"longitude": 22.0177,
+			"postalCode": "35-006"
+		},
+		"timestamp": 1735652392757
+	}
+}
