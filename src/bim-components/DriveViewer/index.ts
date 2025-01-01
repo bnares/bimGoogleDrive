@@ -1,5 +1,5 @@
 import * as OBC from "@thatopen/components"
-import { call } from "three/examples/jsm/nodes/Nodes.js";
+
 
 export interface AuthData{
   clientId:string,
