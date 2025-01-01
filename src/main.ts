@@ -165,7 +165,7 @@ const toolbar = BUI.Component.create(() => {
             ${measurement(world, components)}
         </bim-toolbar>      
       </bim-tab>
-      <bim-tab label="Drive">
+      <bim-tab label="Drive ">
       ${DriveViewerUI(components)}
       </bim-tab>
     </bim-tabs>
